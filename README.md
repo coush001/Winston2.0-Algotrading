@@ -1,6 +1,6 @@
 # Winston2.0
 
-### MISSION:
+### WINSTON2.0 Workbook:
 https://miro.com/app/board/uXjVO8929fY=/
   
 ### ROAD MAP:
