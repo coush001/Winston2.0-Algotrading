@@ -10,4 +10,6 @@ This is an independant project to build end to end infrastructure and strategy f
 - Offline cronjob which runs the script daily
 
 ## Next:
-- Basic structure for backtesting 
+- Basic infra for backtesting 
+- Testing trading strategies
+- Conneciton and trading out of sample
