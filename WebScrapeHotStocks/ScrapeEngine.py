@@ -80,7 +80,7 @@ if __name__ == "__main__":
     data = get_data_list(soup)
     cursor, db = get_cursor()
     insert_rows(data, cursor, db)
-    print("Successful upload of hot stocks data to sql data base")
+    print("Successful upload of hot stocks data to sql data base  ", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
     # select_all(cursor, db)
     # # drop_all(cursor, db)
 
