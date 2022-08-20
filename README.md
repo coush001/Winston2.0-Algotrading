@@ -13,7 +13,7 @@ This is an independent project to build the end to end infrastructure and strate
   - Offline cronjob which runs script daily on my pc to build up historical data, and use as trading signal
   
 ##### 2. BackTesting
-  - Basic Backtrader file set up in BackTest/core.py
+  - Ability to backtest basic strategies with BackTrader in BackTest/core.py
 
 ## Road Map:
 
