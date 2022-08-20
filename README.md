@@ -5,9 +5,14 @@ This is an independant project to build end to end infrastructure and strategy f
 
 
 ## Current features:
-- Webscrape of data from stickwits most watched stocks each day
 
-- Offline cronjob which runs the script daily
+#### DataMining
+  - Webscrape of data from stickwits most watched stocks each day
+  - Data loaded into data dir .csv for future use
+  - Offline cronjob which runs the script daily on my pc to load data to csv
+  
+#### BackTesting
+  - None
 
 ## Next:
 - Basic infra for backtesting 
