@@ -5,6 +5,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
 import csv
+import yagmail
 
 # function that will return soup from a url
 def get_soup(url="https://stocktwits.com/rankings/watchers"):
@@ -54,4 +55,12 @@ if __name__ == "__main__":
     soup = get_soup()
     data = get_data_list(soup)
     insert_rows(data)
+
+    # Send email
+    yag = yagmail.SMTP('HCdevelopment22@gmail.com', 'irckrtsyjgkwtbvc')
+    contents = ['This is the body, and here is just text http://somedomain/image.png',
+                'You can find an audio file attached.']
+    yag.send('hbcoussens@gmail.com', 'ScrapeStockwits Successful', data)
+
+    # STDO for log
     print("Successful upload of hot stocks data to sql data base  ", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
