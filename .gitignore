@@ -36,3 +36,4 @@ Temporary Items
 */.config
 !/winston.config
 *.ipynb_checkpoints/
+*.idea
