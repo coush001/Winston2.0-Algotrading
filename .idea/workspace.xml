@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2997aec-ba4b-485f-8430-8942b5a04946" name="Changes" comment="readd">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DUTYolsRijmDi5nEMhZmQ422XO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/hugocoussens/git/Winston2.0-Algotrading",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/WebScrapeHotStocks" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2997aec-ba4b-485f-8430-8942b5a04946" name="Changes" comment="" />
+      <created>1660752714916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660752714916</updated>
+    </task>
+    <task id="LOCAL-00001" summary="delete new">
+      <created>1660752892858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660752892858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor">
+      <created>1660926443757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660926443757</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fully working script">
+      <created>1660927047285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660927047285</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fully working script">
+      <created>1660930029010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660930029010</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fully working script">
+      <created>1660930355441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660930355441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fully working script">
+      <created>1660949154298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660949154298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add venv">
+      <created>1660949655034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660949655034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add requirements.txt&#10;rename folders&#10;remove sql connection&#10;add data as csv folder&#10;rename paths">
+      <created>1660993525474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660993525474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add requirements.txt&#10;rename folders&#10;remove sql connection&#10;add data as csv folder&#10;rename paths">
+      <created>1660995532007</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660995532007</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add requirements.txt&#10;rename folders&#10;remove sql connection&#10;add data as csv folder&#10;rename paths">
+      <created>1661010152677</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661010152677</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add requirements.txt&#10;rename folders&#10;remove sql connection&#10;add data as csv folder&#10;rename paths">
+      <created>1661010293762</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661010293763</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add file to Trade/">
+      <created>1661010784031</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661010784031</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add git ignore">
+      <created>1661072913897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661072913897</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add git ignore">
+      <created>1661072932309</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661072932309</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add git ignore">
+      <created>1661073038716</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661073038716</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add git ignore">
+      <created>1661073464240</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661073464241</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add git ignore">
+      <created>1661073477399</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661073477399</updated>
+    </task>
+    <task id="LOCAL-00018" summary="remove cached and re-add for gitignore">
+      <created>1661073797758</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661073797759</updated>
+    </task>
+    <task id="LOCAL-00019" summary="remove cached">
+      <created>1661073974867</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661073974867</updated>
+    </task>
+    <task id="LOCAL-00020" summary="remove cached">
+      <created>1661074179362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661074179362</updated>
+    </task>
+    <task id="LOCAL-00021" summary="readd">
+      <created>1661074200813</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661074200813</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="backtesting" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="automate_data_upload" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Automate_twitter" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="delete new" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="fully working script" />
+    <MESSAGE value="add venv" />
+    <MESSAGE value="add requirements.txt&#10;rename folders&#10;remove sql connection&#10;add data as csv folder&#10;rename paths" />
+    <MESSAGE value="add file to Trade/" />
+    <MESSAGE value="add git ignore" />
+    <MESSAGE value="remove cached and re-add for gitignore" />
+    <MESSAGE value="remove cached" />
+    <MESSAGE value="readd" />
+    <option name="LAST_COMMIT_MESSAGE" value="readd" />
+  </component>
+</project>

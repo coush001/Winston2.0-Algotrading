@@ -32,5 +32,8 @@ Temporary Items
 *.icloud
 
 ### Winston specific
-.idea
-*.config
+
+*/.config
+!/winston.config
+*.ipynb_checkpoints/
+*.idea
