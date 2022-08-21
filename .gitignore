@@ -32,6 +32,7 @@ Temporary Items
 *.icloud
 
 ### Winston specific
-.idea
+
 *.config
 !/winston.config
+!/.idea*
