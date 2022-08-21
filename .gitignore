@@ -34,3 +34,4 @@ Temporary Items
 ### Winston specific
 .idea
 *.config
+!/winston.config
