@@ -1,3 +1,4 @@
+
 #!/bin/bash
 import os
 from bs4 import BeautifulSoup
@@ -32,7 +33,10 @@ def get_data_list(soup):
             sign = 1
         elif price_move['class'][3] == 'st_16rsg3e':
             sign = -1
-        strip_price_move = float(price_move.text.rstrip('%'))
+        if price_move.text != '---':
+            strip_price_move = float(price_move.text.rstrip('%'))
+        else:
+            strip_price_move = 0
         price_move = sign * strip_price_move
         now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         #         print(now, " ", ticker.text, " ", count[3].text," ",price_move)
@@ -63,4 +67,4 @@ if __name__ == "__main__":
     yag.send('hbcoussens@gmail.com', 'ScrapeStockwits Successful', data)
 
     # STDO for log
-    print("Successful upload of hot stocks data to sql data base  ", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+    print("Successful upload of hot stocks data to csv datafile  ", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))

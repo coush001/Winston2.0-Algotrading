@@ -33,3 +33,5 @@ Temporary Items
 
 ### Winston specific
 !/winston.config
+!/venv/*
+!/venv/
