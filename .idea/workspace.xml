@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c79884-3b02-46a0-832e-f4cb65c1b2f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Winston2.0-Algotrading.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Winston2.0-Algotrading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Winston2.0-Algotrading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes/.Python" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes/ACT" beforeDir="false" />
@@ -1242,7 +1240,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes1/w64.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/remove_cached.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/remove_cached/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1252,6 +1249,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DhjVu5ClUdT8QHB6vkt9O1DTtt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
