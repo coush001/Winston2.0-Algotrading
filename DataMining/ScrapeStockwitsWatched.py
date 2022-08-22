@@ -1,5 +1,6 @@
 
 #!/bin/bash
+from dotenv import load_dotenv
 import os
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -7,6 +8,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
 import csv
 import yagmail
+
+# load environ variables
+load_dotenv()
 
 # function that will return soup from a url
 def get_soup(url="https://stocktwits.com/rankings/watchers"):
@@ -53,7 +57,7 @@ def insert_rows(data):
         with open(path, 'a') as csv_file:
             dict_object = csv.DictWriter(csv_file, fieldnames=field_names)
             dict_object.writerow(dict)
-    print("Record inserted successfully into stocknote table")
+    # print("Record inserted successfully into stocknote table")
 
 if __name__ == "__main__":
     soup = get_soup()
@@ -61,10 +65,9 @@ if __name__ == "__main__":
     insert_rows(data)
 
     # Send email
-    yag = yagmail.SMTP('HCdevelopment22@gmail.com', 'irckrtsyjgkwtbvc')
-    contents = ['This is the body, and here is just text http://somedomain/image.png',
-                'You can find an audio file attached.']
-    yag.send('hbcoussens@gmail.com', 'ScrapeStockwits Successful', data)
+    # print(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
+    # yag = yagmail.SMTP(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
+    # yag.send(to='hbcoussens@gmail.com', subject='ScrapeStockwits Successful', contents=data)
 
     # STDO for log
-    print("Successful upload of hot stocks data to csv datafile  ", datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+    print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"), ' Data from Stockwits.com successfully loaded via cron on:', os.getenv('PWD'))
