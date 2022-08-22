@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2997aec-ba4b-485f-8430-8942b5a04946" name="Changes" comment="readd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="72c79884-3b02-46a0-832e-f4cb65c1b2f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/winston.config" beforeDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,11 +34,15 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+=======
+  <component name="Git.Settings">
+>>>>>>> main
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2DUTYolsRijmDi5nEMhZmQ422XO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -306,4 +317,29 @@
     <MESSAGE value="readd" />
     <option name="LAST_COMMIT_MESSAGE" value="readd" />
   </component>
+=======
+  <component name="ProjectId" id="2DhjVu5ClUdT8QHB6vkt9O1DTtt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72c79884-3b02-46a0-832e-f4cb65c1b2f8" name="Changes" comment="" />
+      <created>1661158238122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661158238122</updated>
+    </task>
+    <servers />
+  </component>
+>>>>>>> main
 </project>
