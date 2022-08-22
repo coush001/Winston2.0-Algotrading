@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="29aff8a7-716a-4049-bc12-f8389c9cedc4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Winston2.0-Algotrading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Winston2.0-Algotrading.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataMining/ScrapeStockwitsWatched.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataMining/ScrapeStockwitsWatched.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataMining/data/stockwitswatched.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataMining/data/stockwitswatched.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

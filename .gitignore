@@ -32,6 +32,6 @@ Temporary Items
 *.icloud
 
 ### Winston specific
-!/winston.config
-!/venv/*
-!/venv/
+/winston.config
+/venv/*
+/venv/
