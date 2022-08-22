@@ -33,7 +33,3 @@ Temporary Items
 
 ### Winston specific
 
-*/.config
-!/winston.config
-*.ipynb_checkpoints/
-*.idea
