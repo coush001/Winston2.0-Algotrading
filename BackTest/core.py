@@ -1,8 +1,10 @@
 import backtrader as bt
 import datetime  # For datetime objects
+import swDataConverter
+import yfinance as yf
 
 
-# Create a Stratey
+# Create a Strategy
 class Strategy(bt.Strategy):
     params = (
         ('maperiod', 15),
@@ -72,6 +74,7 @@ class Strategy(bt.Strategy):
                  (trade.pnl, trade.pnlcomm))
 
     def next(self):
+        # print('shape data', type(self.data), 'current data0', self.datas[0])
         # Simply log the closing price of the series from the reference
         self.log('Close, %.2f' % self.dataclose[0])
 
@@ -90,7 +93,6 @@ class Strategy(bt.Strategy):
 
                 # Keep track of the created order to avoid a 2nd order
                 self.order = self.buy()
-
         else:
 
             if self.dataclose[0] < self.sma[0]:
@@ -102,36 +104,23 @@ class Strategy(bt.Strategy):
 
 
 if __name__ == '__main__':
-    cerebro = bt.Cerebro()
 
-    cerebro.addstrategy(Strategy)
+    uniqTick, hot_tick = swDataConverter.get_signal_and_stocks()  # 1. get uniq stocks and all hot picks
 
-    datapath = './datas/orcl-1995-2014.txt'
-    data = bt.feeds.YahooFinanceCSVData(
-        dataname=datapath,
-        # Do not pass values before this date
-        fromdate=datetime.datetime(2000, 1, 1),
-        # Do not pass values after this date
-        todate=datetime.datetime(2000, 12, 31),
-        reverse=False)
+    cerebro = bt.Cerebro()  # 2. set up cerebro engine
 
-    cerebro.adddata(data)
+    cerebro.addstrategy(Strategy)  # 3. add strategy
 
+    # add all unique datas
+    for i in uniqTick:
+        print(i)
+        data = bt.feeds.PandasData(dataname=yf.download(i, '2022-08-23', '2022-08-26'))
+        cerebro.adddata(data)
+
+    #other crap
     cerebro.broker.setcash(1996)
 
-    cerebro.addsizer(bt.sizers.FixedSize, stake=10)
-
-    cerebro.broker.setcommission(commission=0.0)
     print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
     cerebro.run()
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
-    cerebro.plot()
-
-
-    # to optimise a parameter:
-        # add stop func to strategy
-        # Run optstrategy on cerebro:
-            # strats = cerebro.optstrategy(
-            # TestStrategy,
-            # maperiod=range(10, 31))
-
+    # cerebro.plot()
