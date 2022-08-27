@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29aff8a7-716a-4049-bc12-f8389c9cedc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BackTest/BTdev.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackTest/swDataConverter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTest/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTest/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTest/BTdev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTest/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTest/btmain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackTest/swDataConverter.py" beforeDir="false" afterPath="$PROJECT_DIR$/BackTest/swDataConverter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataMining/data/stockwitswatched.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DataMining/data/stockwitswatched.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cron.log" beforeDir="false" afterPath="$PROJECT_DIR$/cron.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
