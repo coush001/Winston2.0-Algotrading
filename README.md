@@ -6,20 +6,18 @@ This is an independent project to build the end to end infrastructure and strate
 
 ## Current features:
 
+  - Script to Webscrape data from stock-wits.com and pulls the list of most watched stocks last 24hr 
+  - Cron job / manual run creates data base in .csv file
+  - Data handler converts CSV to useful format, returns unique tickers and given datetime date returns 'hot stock' for that date
+  - Backtesting - can run back test on strategies involving 'hot stock' placing buy orders on ticker (90% complete)
 
-##### 1. DataMining
-  - Ability to webscrape  data from stock-wits.com most watched stocks each day
-  - Ability to load data into .csv for future use in trading strategies
-  - Offline cronjob which runs script daily on my pc to build up historical data, and use as trading signal
-  
-##### 2. BackTesting
-  - Ability to backtest basic strategies with BackTrader in BackTest/core.py
+## Current development:
 
-## Road Map:
-
-#### Now
-- Experimentation with strategies
+- Completion of back testing for basic 'hot stock' strategy
 
 
-#### Next
-- Connection and trading out of sample
+## Next
+
+- Connection to broker for out of sample testing
+- Live trading?
+- Review of other potential algo trading strategies?
