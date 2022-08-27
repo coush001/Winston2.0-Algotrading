@@ -6,8 +6,8 @@ This is an independent project to build the end to end infrastructure and strate
 
 ## Current features:
 
-  - Script to Webscrape data from stock-wits.com and pulls the list of most watched stocks last 24hr 
-  - Cron job / manual run creates data base in .csv file
+  - Webscrape script to pull data from stock-wits.com and pulls the list of most watched stocks last 24hr 
+  - Historical dataset creation via scheduled cron job / manual run to build data in .csv file
   - Data handler converts CSV to useful format, returns unique tickers and given datetime date returns 'hot stock' for that date
   - Backtesting - can run back test on strategies involving 'hot stock' placing buy orders on ticker (90% complete)
 
