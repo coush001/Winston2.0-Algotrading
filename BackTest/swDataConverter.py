@@ -34,9 +34,10 @@ def get_signal_and_stocks(datapath='../DataMining/data/stockwitswatched.csv'):
     hs = pd.DataFrame(hot_pick)
     uniq_tick = hs.tick.unique()
 
-    print('\n=== Stockwits data created:\n- unique ticks and hot_pick for:', datapath)
-    print('- Total data collections made: ', int(len(df)/10),
-          '\n- Unique days data: ', len(hs))
+    # print('\n=== Stockwits data created:'
+    #       '\n- unique ticks and hot_pick for:', datapath)
+    # print('- Total data collections made: ', int(len(df)/10),
+    #       '\n- Unique days data: ', len(hs))
 
     # print(hs)
     return uniq_tick, hs
@@ -47,7 +48,9 @@ def whats_hot(dt):
     uniqTick, hot_tick = get_signal_and_stocks()
     # print(uniqTick, hot_tick)
     hot = hot_tick.where(hot_tick['date']==dt).dropna()
-    print('=====', dir(hot.tick))
+    if len(hot.tick.values) == 0:
+        return 0
+    # print('===== in whats_hot()', hot.tick.values)
     return hot.tick.values[0]
 
 
