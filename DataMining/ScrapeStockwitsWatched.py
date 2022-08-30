@@ -52,7 +52,7 @@ def insert_rows(data):
     field_names = ['datetime', 'ticker', 'watchers', 'pricemove']
 
     for i in data:
-        path = "/Users/hugocoussens/git/Winston2.0-Algotrading/DataMining/data/stockwitswatched.csv"
+        path = "/Users/hugo/git/Winston2.0-Algotrading/DataMining/data/stockwitswatched.csv"
         dict = {"datetime": i[0], "ticker": i[1], "watchers": i[2], "pricemove": i[3], }
         with open(path, 'a') as csv_file:
             dict_object = csv.DictWriter(csv_file, fieldnames=field_names)
@@ -65,9 +65,9 @@ if __name__ == "__main__":
     insert_rows(data)
 
     # Send email
-    # print(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
-    # yag = yagmail.SMTP(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
-    # yag.send(to='hbcoussens@gmail.com', subject='ScrapeStockwits Successful', contents=data)
+    print(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
+    yag = yagmail.SMTP(os.getenv('EMAIL'), os.getenv('EMAILPWD'))
+    yag.send(to='hbcoussens@gmail.com', subject='ScrapeStockwits Successful', contents=data)
 
     # STDO for log
     print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"), ' Data from Stockwits.com successfully loaded via cron on:', os.getenv('PWD'))
