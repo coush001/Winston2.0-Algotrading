@@ -35,3 +35,5 @@ Temporary Items
 /.env
 /venv/*
 /venv/
+*/__pycache__
+
